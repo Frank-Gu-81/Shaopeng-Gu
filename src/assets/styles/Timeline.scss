@@ -19,6 +19,10 @@
     color: rgb(39, 40, 34);
 }
 
+.vertical-timeline-element h5 {
+    color: rgb(39, 40, 34);
+}
+
 .vertical-timeline-element span {
     color: rgb(39, 40, 34);
 }
@@ -27,8 +31,29 @@
     color: white;
 }
 
+.company-link {
+    color: rgb(39, 40, 34);
+    text-decoration: underline;
+}
+
+.job-title {
+    font-style: italic;
+}
+
 .svg-inline--fa {
     color: white;
+}
+
+.individual-work-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.individual-work-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1170px) {
