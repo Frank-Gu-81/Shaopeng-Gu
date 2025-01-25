@@ -161,15 +161,48 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            // date="2020 - 2020"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Data Analyst Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>Automation, Data Governance, Statistical Analysis</p>
+            <div className="individual-work-row">
+              <h4 className="vertical-timeline-element-title">
+                <a
+                  className="company-link"
+                  href="https://ventureshares.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Venture Shares
+                </a>
+              </h4>
+              <h4 className="vertical-timeline-element-title">
+                2023.11 - 2024.03
+              </h4>
+            </div>
+            <div className="individual-work-row">
+              <h5 className="vertical-timeline-element-title job-title">
+                Software Development Intern
+              </h5>
+              <h5 className="vertical-timeline-element-title job-title">
+                Remote
+              </h5>
+            </div>
+            {/* <h4 className="vertical-timeline-element-subtitle">Evanston, IL</h4> */}
+            <p>
+              • Engineered a secure backend server in TypeScript, hosted on AWS
+              using S3, EC2, and RDS for PostgreSQL management with Sequelize
+              ORM, providing public access to private markets and ensuring
+              secure data storage and access, reducing system downtime by 15%
+              and enhanced data integrity, enabling more reliable financial
+              analytics for the company
+            </p>
+            <p>
+              • Designed and implemented RESTful APIs using Node.js and Express
+              to streamline data flow between the backend and frontend systems,
+              improving data retrieval efficiency by 25%, enhancing the deliver
+              of real-time financial insights the clients
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
