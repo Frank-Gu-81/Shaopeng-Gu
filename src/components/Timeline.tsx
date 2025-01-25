@@ -63,30 +63,101 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            // date="2020 - 2022"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Full Stack Engineer
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <div className="individual-work-row">
+              <h4 className="vertical-timeline-element-title">
+                <a
+                  className="company-link"
+                  href="https://www.atlasnova.ai/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AtlasNova AI
+                </a>
+              </h4>
+              <h4 className="vertical-timeline-element-title">
+                2024.10 - 2025.01
+              </h4>
+            </div>
+            <div className="individual-work-row">
+              <h5 className="vertical-timeline-element-title job-title">
+                Software Development Intern
+              </h5>
+              <h5 className="vertical-timeline-element-title job-title">
+                Remote
+              </h5>
+            </div>
+            {/* <h4 className="vertical-timeline-element-subtitle">Evanston, IL</h4> */}
             <p>
-              Frontend Development, Backend Development, User Experience, Team
-              Leading
+              • Developed and integrated a Stripe payment system into a REST API
+              and front-end using React-Redux, Stripe API, and Node.js to
+              streamline payment process, enabling secure, real-time payments
+              and improving the company’s monetization
+            </p>
+            <p>
+              • Improved content generation using Retrieval-Augmented Generation
+              (RAG) for internal and external data, leveraging Python,
+              TensorFlow, and NLP models to enhance output accuracy while
+              optimizing retrieval strategies and prompt engineering
+            </p>
+            <p>
+              • Conducted advanced prompt engineering to fine-tune AI responses,
+              leveraging OpenAI APIs and other LLMs to improve response quality,
+              resulted in reduced operational costs and improved user
+              satisfaction by generating more accurate contents
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            // date="2021 - 2021"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Staff Engineer Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>Full-stack Development, API Development, User Experience</p>
+            <div className="individual-work-row">
+              <h4 className="vertical-timeline-element-title">
+                <a
+                  className="company-link"
+                  href="https://yhjh.chinastock.com.cn/web/index.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  China Galaxy Securities
+                </a>
+              </h4>
+              <h4 className="vertical-timeline-element-title">
+                2024.06 - 2024.07
+              </h4>
+            </div>
+            <div className="individual-work-row">
+              <h5 className="vertical-timeline-element-title job-title">
+                Software Development Intern
+              </h5>
+              <h5 className="vertical-timeline-element-title job-title">
+                Beijing, China
+              </h5>
+            </div>
+            {/* <h4 className="vertical-timeline-element-subtitle">Evanston, IL</h4> */}
+            <p>
+              • Collaborated on improving the efficiency and reducing the false
+              positive rate of Anti-Money Laundering (AML) and Counter-Terrorist
+              Financing systems using Message Passing Neural Networks (MPNNs) on
+              heterogeneous graphs
+            </p>
+            <p>
+              • Integrated data from SZSE, HKEX, and internal sources, utilizing
+              Neo4j for graph management; Employed node classification and link
+              prediction, boosting detection accuracy by 12% and significantly
+              enhancing financial security
+            </p>
+            <p>
+              • Collaborated with legal and compliance teams to translate
+              regulatory requirements into technical specifications; implemented
+              solutions using Python, Django, and SQL, ensuring adherence to
+              regulation and reducing regulatory fines by 15%
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
