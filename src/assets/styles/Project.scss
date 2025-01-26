@@ -14,10 +14,22 @@
 .projects-container .projects-grid .project {
     text-align: left;
 }
-  
+
+.project h2 {
+    font-family: 'poppins';
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 .project h2:hover {
+    font-family: 'poppins';
     text-decoration: underline;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.project p {
+    font-family: 'poppins';
+    font-size: 0.72rem;
 }
   
 .zoom {

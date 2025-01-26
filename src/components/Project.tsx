@@ -1,15 +1,8 @@
 import React from "react";
-import mock01 from "../assets/images/mock01.png";
-import mock02 from "../assets/images/mock02.png";
-import mock03 from "../assets/images/mock03.png";
-import mock04 from "../assets/images/mock04.png";
-import mock05 from "../assets/images/mock05.png";
-import mock06 from "../assets/images/mock06.png";
-import mock07 from "../assets/images/mock07.png";
-import mock08 from "../assets/images/mock08.png";
-import mock09 from "../assets/images/mock09.png";
-import mock10 from "../assets/images/mock10.png";
 import golang from "../assets/images/golang.jpg";
+import smileme from "../assets/images/SmileMe.png";
+import iot from "../assets/images/iot.jpg";
+import smartparking from "../assets/images/smartparking.jpg";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../assets/styles/Project.scss";
@@ -25,9 +18,59 @@ function Project() {
             <h2>Distributed Systems Project</h2>
           </Link>
 
-          <p></p>
+          <p>
+            Built a custom MapReduce framework, the Chandy-Lamport snapshot
+            algorithm, and the Raft consensus protocol to enhance fault
+            tolerance and concurrency in distributed systems
+          </p>
         </div>
         <div className="project">
+          <Link to="/project-page/2">
+            <img src={smileme} className="zoom" alt="thumbnail" width="100%" />
+            <h2>SmileMe</h2>
+          </Link>
+
+          <p>
+            Developed real-time facial emotion detection models using CNNs and
+            LSTMs, integrated into an interactive React and Node.js-based
+            website, boosting user engagement by 50%
+          </p>
+        </div>
+        <div className="project">
+          <Link to="/project-page/3">
+            <img
+              src={smartparking}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+            <h2>
+              Smart Parking System: IoT Technology and Energy Efficiency
+              Analysis
+            </h2>
+          </Link>
+
+          <p>
+            Researched IoT-based Smart Parking Systems, analyzing LoRaWAN and
+            NB-IoT technologies to optimize energy efficiency and scalability,
+            while proposing data models for real-time updates and extended
+            sensor battery life
+          </p>
+        </div>
+        <div className="project">
+          <Link to="/project-page/4">
+            <img src={iot} className="zoom" alt="thumbnail" width="100%" />
+            <h2>Advanced IoT Communication Systems</h2>
+          </Link>
+
+          <p>
+            Developed IoT applications using BLE and WiFi technologies,
+            implementing communication protocols, traffic scanning, and
+            MQTT-based messaging on nRF52840DK and Heltec WiFi LoRa 32 boards,
+            with a focus on low-power, long-distance data transmission over LoRa
+          </p>
+        </div>
+        {/* <div className="project">
           <a
             href="https://yujisatojr.itch.io/highspeedchase"
             target="_blank"
@@ -207,7 +250,7 @@ function Project() {
             Developed and released an Android mobile application using Java and
             Android Studio that runs a 2D shooting game.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
