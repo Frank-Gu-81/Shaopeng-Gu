@@ -3,6 +3,10 @@ import golang from "../assets/images/golang.jpg";
 import smileme from "../assets/images/SmileMe.png";
 import iot from "../assets/images/iot.jpg";
 import smartparking from "../assets/images/smartparking.jpg";
+import deepstuq from "../assets/images/deepstuq.png";
+import bustub from "../assets/images/bustub.png";
+import networking from "../assets/images/networking.jpg";
+import platformer from "../assets/images/platformer.jpg";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "../assets/styles/Project.scss";
@@ -68,6 +72,69 @@ function Project() {
             implementing communication protocols, traffic scanning, and
             MQTT-based messaging on nRF52840DK and Heltec WiFi LoRa 32 boards,
             with a focus on low-power, long-distance data transmission over LoRa
+          </p>
+        </div>
+        <div className="project">
+          <Link to="/project-page/5">
+            <img src={deepstuq} className="zoom" alt="thumbnail" width="100%" />
+            <h2>DeepSTUQ-Conformal Model For Traffic Flow Prediction</h2>
+          </Link>
+
+          <p>
+            Developed the DeepSTUQ-Conformal model, integrating Conformalized
+            Graph Neural Networks and Bayesian optimization to enhance
+            uncertainty quantification for spatio-temporal traffic data.
+            Achieved a balance of computational efficiency and predictive
+            performance on the PEMS traffic dataset
+          </p>
+        </div>
+        <div className="project">
+          <Link to="/project-page/6">
+            <img src={bustub} className="zoom" alt="thumbnail" width="100%" />
+            <h2>BusTub Relational Database Management System</h2>
+          </Link>
+
+          <p>
+            Optimized BusTub's database system by implementing an LRU-K buffer
+            pool, extendible hashing with concurrency control, and advanced
+            query execution plans, reducing latency and enhancing transaction
+            concurrency for high-traffic workloads
+          </p>
+        </div>
+        <div className="project">
+          <Link to="/project-page/7">
+            <img
+              src={networking}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+            <h2>Network Protocols and Security Analysis Tools Development</h2>
+          </Link>
+
+          <p>
+            Developed multi-threaded TCP/UDP communication applications,
+            simulated OSPF and BGP routing protocols, and built a Python-based
+            network security auditing tool for domain probing, security
+            assessment, and performance analysis
+          </p>
+        </div>
+        <div className="project">
+          <Link to="/project-page/8">
+            <img
+              src={platformer}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
+            <h2>Unity Game Development</h2>
+          </Link>
+
+          <p>
+            Developed two Unity games, Squarebound Adventures, a physics-based
+            platformer with custom levels and animations, and Galaxian, a
+            retro-inspired space shooter with enemy spawning, power-ups, and
+            dynamic difficulty balancing for immersive gameplay
           </p>
         </div>
         {/* <div className="project">
