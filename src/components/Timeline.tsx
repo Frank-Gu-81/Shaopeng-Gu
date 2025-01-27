@@ -20,14 +20,14 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(-20%)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             // date="2024.10 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <div className="individual-work-row">
-              <h4 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title">
                 <a
                   className="company-link"
                   href="https://www.brite.co/"
@@ -36,10 +36,10 @@ function Timeline() {
                 >
                   BriteCo, Inc
                 </a>
-              </h4>
-              <h4 className="vertical-timeline-element-title">
+              </h3>
+              <h3 className="vertical-timeline-element-title">
                 2024.10 - present
-              </h4>
+              </h3>
             </div>
             <div className="individual-work-row">
               <h5 className="vertical-timeline-element-title job-title">
@@ -66,11 +66,12 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="2020 - 2022"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(+20%)" }}
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <div className="individual-work-row">
-              <h4 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title">
                 <a
                   className="company-link"
                   href="https://www.atlasnova.ai/"
@@ -79,10 +80,10 @@ function Timeline() {
                 >
                   AtlasNova AI
                 </a>
-              </h4>
-              <h4 className="vertical-timeline-element-title">
+              </h3>
+              <h3 className="vertical-timeline-element-title">
                 2024.10 - 2025.01
-              </h4>
+              </h3>
             </div>
             <div className="individual-work-row">
               <h5 className="vertical-timeline-element-title job-title">
@@ -105,21 +106,16 @@ function Timeline() {
               TensorFlow, and NLP models to enhance output accuracy while
               optimizing retrieval strategies and prompt engineering
             </p>
-            <p>
-              • Conducted advanced prompt engineering to fine-tune AI responses,
-              leveraging OpenAI APIs and other LLMs to improve response quality,
-              resulted in reduced operational costs and improved user
-              satisfaction by generating more accurate contents
-            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="2021 - 2021"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(-20%)" }}
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <div className="individual-work-row">
-              <h4 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title">
                 <a
                   className="company-link"
                   href="https://yhjh.chinastock.com.cn/web/index.html"
@@ -128,10 +124,10 @@ function Timeline() {
                 >
                   China Galaxy Securities
                 </a>
-              </h4>
-              <h4 className="vertical-timeline-element-title">
+              </h3>
+              <h3 className="vertical-timeline-element-title">
                 2024.06 - 2024.07
-              </h4>
+              </h3>
             </div>
             <div className="individual-work-row">
               <h5 className="vertical-timeline-element-title job-title">
@@ -154,21 +150,16 @@ function Timeline() {
               prediction, boosting detection accuracy by 12% and significantly
               enhancing financial security
             </p>
-            <p>
-              • Collaborated with legal and compliance teams to translate
-              regulatory requirements into technical specifications; implemented
-              solutions using Python, Django, and SQL, ensuring adherence to
-              regulation and reducing regulatory fines by 15%
-            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="2020 - 2020"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(+20%)" }}
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <div className="individual-work-row">
-              <h4 className="vertical-timeline-element-title">
+              <h3 className="vertical-timeline-element-title">
                 <a
                   className="company-link"
                   href="https://ventureshares.io/"
@@ -177,10 +168,10 @@ function Timeline() {
                 >
                   Venture Shares
                 </a>
-              </h4>
-              <h4 className="vertical-timeline-element-title">
+              </h3>
+              <h3 className="vertical-timeline-element-title">
                 2023.11 - 2024.03
-              </h4>
+              </h3>
             </div>
             <div className="individual-work-row">
               <h5 className="vertical-timeline-element-title job-title">
