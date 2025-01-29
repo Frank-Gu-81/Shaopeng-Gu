@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio-template",
+  "name": "shaopeng-gu",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://frank-gu-81.github.io/Shaopeng-Gu/",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
