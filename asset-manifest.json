@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Frank-Gu-81/ShaopengGu/static/css/main.9b0a74f7.css",
-    "main.js": "/Frank-Gu-81/ShaopengGu/static/js/main.0ca65215.js",
-    "static/js/453.e361c5c5.chunk.js": "/Frank-Gu-81/ShaopengGu/static/js/453.e361c5c5.chunk.js",
-    "static/media/bg-light.png": "/Frank-Gu-81/ShaopengGu/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/SmileMe.png": "/Frank-Gu-81/ShaopengGu/static/media/SmileMe.8d2a7dcfb9bc1500a17f.png",
-    "static/media/bg-dark.png": "/Frank-Gu-81/ShaopengGu/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/iot.jpg": "/Frank-Gu-81/ShaopengGu/static/media/iot.abad6eae9a0ba42fc925.jpg",
-    "static/media/smartparking.jpg": "/Frank-Gu-81/ShaopengGu/static/media/smartparking.e4cef0b9179967b2dbb4.jpg",
-    "static/media/platformer.jpg": "/Frank-Gu-81/ShaopengGu/static/media/platformer.a7aa706f593588c0b7db.jpg",
-    "static/media/deepstuq.png": "/Frank-Gu-81/ShaopengGu/static/media/deepstuq.4fafdcfab4944b71904c.png",
-    "static/media/bustub.png": "/Frank-Gu-81/ShaopengGu/static/media/bustub.53323881b6d259fbe4c3.png",
-    "static/media/golang.jpg": "/Frank-Gu-81/ShaopengGu/static/media/golang.7974d42ee63006e115a4.jpg",
-    "static/media/networking.jpg": "/Frank-Gu-81/ShaopengGu/static/media/networking.d33f2f29045f3d9ec3a9.jpg",
-    "static/media/poppins-latin-400-normal.woff": "/Frank-Gu-81/ShaopengGu/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
-    "static/media/poppins-latin-400-normal.woff2": "/Frank-Gu-81/ShaopengGu/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
-    "static/media/poppins-latin-ext-400-normal.woff": "/Frank-Gu-81/ShaopengGu/static/media/poppins-latin-ext-400-normal.7e12786771ac4a8e6a5c.woff",
-    "static/media/poppins-latin-ext-400-normal.woff2": "/Frank-Gu-81/ShaopengGu/static/media/poppins-latin-ext-400-normal.d7c074a9c34fe9785f69.woff2",
-    "index.html": "/Frank-Gu-81/ShaopengGu/index.html",
-    "main.9b0a74f7.css.map": "/Frank-Gu-81/ShaopengGu/static/css/main.9b0a74f7.css.map",
-    "main.0ca65215.js.map": "/Frank-Gu-81/ShaopengGu/static/js/main.0ca65215.js.map",
-    "453.e361c5c5.chunk.js.map": "/Frank-Gu-81/ShaopengGu/static/js/453.e361c5c5.chunk.js.map"
+    "main.css": "/Shaopeng-Gu/static/css/main.6184b5f0.css",
+    "main.js": "/Shaopeng-Gu/static/js/main.1c8941f5.js",
+    "static/js/453.e361c5c5.chunk.js": "/Shaopeng-Gu/static/js/453.e361c5c5.chunk.js",
+    "static/media/bg-light.png": "/Shaopeng-Gu/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/SmileMe.png": "/Shaopeng-Gu/static/media/SmileMe.8d2a7dcfb9bc1500a17f.png",
+    "static/media/bg-dark.png": "/Shaopeng-Gu/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/iot.jpg": "/Shaopeng-Gu/static/media/iot.abad6eae9a0ba42fc925.jpg",
+    "static/media/smartparking.jpg": "/Shaopeng-Gu/static/media/smartparking.e4cef0b9179967b2dbb4.jpg",
+    "static/media/platformer.jpg": "/Shaopeng-Gu/static/media/platformer.a7aa706f593588c0b7db.jpg",
+    "static/media/deepstuq.png": "/Shaopeng-Gu/static/media/deepstuq.4fafdcfab4944b71904c.png",
+    "static/media/bustub.png": "/Shaopeng-Gu/static/media/bustub.53323881b6d259fbe4c3.png",
+    "static/media/golang.jpg": "/Shaopeng-Gu/static/media/golang.7974d42ee63006e115a4.jpg",
+    "static/media/networking.jpg": "/Shaopeng-Gu/static/media/networking.d33f2f29045f3d9ec3a9.jpg",
+    "static/media/poppins-latin-400-normal.woff": "/Shaopeng-Gu/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/Shaopeng-Gu/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/Shaopeng-Gu/static/media/poppins-latin-ext-400-normal.7e12786771ac4a8e6a5c.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/Shaopeng-Gu/static/media/poppins-latin-ext-400-normal.d7c074a9c34fe9785f69.woff2",
+    "index.html": "/Shaopeng-Gu/index.html",
+    "main.6184b5f0.css.map": "/Shaopeng-Gu/static/css/main.6184b5f0.css.map",
+    "main.1c8941f5.js.map": "/Shaopeng-Gu/static/js/main.1c8941f5.js.map",
+    "453.e361c5c5.chunk.js.map": "/Shaopeng-Gu/static/js/453.e361c5c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b0a74f7.css",
-    "static/js/main.0ca65215.js"
+    "static/css/main.6184b5f0.css",
+    "static/js/main.1c8941f5.js"
   ]
 }
