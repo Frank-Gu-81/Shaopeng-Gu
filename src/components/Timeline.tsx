@@ -10,7 +10,6 @@ import "react-vertical-timeline-component/style.min.css";
 import "../assets/styles/Timeline.scss";
 import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/400.css"; // Specify weight
-import BriteCo from "../assets/company_logos/briteco.svg";
 
 function Timeline() {
   return (
@@ -20,7 +19,12 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(-20%)" }}
+            contentStyle={{
+              background: "white",
+              color: "rgb(39, 40, 34)",
+              width: "55%",
+              transform: "translateX(-20%)",
+            }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             // date="2024.10 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
@@ -66,7 +70,12 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="2020 - 2022"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(+20%)" }}
+            contentStyle={{
+              background: "white",
+              color: "rgb(39, 40, 34)",
+              width: "55%",
+              transform: "translateX(+20%)",
+            }}
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -110,7 +119,12 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="2021 - 2021"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(-20%)" }}
+            contentStyle={{
+              background: "white",
+              color: "rgb(39, 40, 34)",
+              width: "55%",
+              transform: "translateX(-20%)",
+            }}
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -154,7 +168,12 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // date="2020 - 2020"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)", width: "55%", transform: "translateX(+20%)" }}
+            contentStyle={{
+              background: "white",
+              color: "rgb(39, 40, 34)",
+              width: "55%",
+              transform: "translateX(+20%)",
+            }}
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
