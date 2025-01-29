@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Frank-Gu-81/ShaopengGu-Portfolio/static/css/main.4405173c.css",
+    "main.js": "/Frank-Gu-81/ShaopengGu-Portfolio/static/js/main.b1ff8c35.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Frank-Gu-81/ShaopengGu-Portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/SmileMe.png": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/SmileMe.8d2a7dcfb9bc1500a17f.png",
+    "static/media/bg-dark.png": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/iot.jpg": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/iot.abad6eae9a0ba42fc925.jpg",
+    "static/media/smartparking.jpg": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/smartparking.e4cef0b9179967b2dbb4.jpg",
+    "static/media/platformer.jpg": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/platformer.a7aa706f593588c0b7db.jpg",
+    "static/media/deepstuq.png": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/deepstuq.4fafdcfab4944b71904c.png",
+    "static/media/bustub.png": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/bustub.53323881b6d259fbe4c3.png",
+    "static/media/golang.jpg": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/golang.7974d42ee63006e115a4.jpg",
+    "static/media/networking.jpg": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/networking.d33f2f29045f3d9ec3a9.jpg",
+    "static/media/poppins-latin-400-normal.woff": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/poppins-latin-ext-400-normal.7e12786771ac4a8e6a5c.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/Frank-Gu-81/ShaopengGu-Portfolio/static/media/poppins-latin-ext-400-normal.d7c074a9c34fe9785f69.woff2",
+    "index.html": "/Frank-Gu-81/ShaopengGu-Portfolio/index.html",
+    "main.4405173c.css.map": "/Frank-Gu-81/ShaopengGu-Portfolio/static/css/main.4405173c.css.map",
+    "main.b1ff8c35.js.map": "/Frank-Gu-81/ShaopengGu-Portfolio/static/js/main.b1ff8c35.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Frank-Gu-81/ShaopengGu-Portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4405173c.css",
+    "static/js/main.b1ff8c35.js"
+  ]
+}
